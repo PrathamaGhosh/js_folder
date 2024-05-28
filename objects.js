@@ -113,7 +113,7 @@ const arrayObj=[
      }
 ]
 
-arrayObj[1].name
+// arrayObj[1].name
 
 
 //iterate all keys from a objects
@@ -125,3 +125,16 @@ console.log(Object.values(arrayObj))
 console.log(Object.entries(arrayObj))
 
 console.log(arrayObj.hasOwnProperty('id'))//check whether a property is present or not
+
+
+//destructure in object
+const course={
+    coursename:"javascript",
+    price:"1965",
+    courseDate:"09/06/2024"
+}
+
+const {coursename:instructor}=course
+// console.log(coursename)
+console.log(instructor)
+

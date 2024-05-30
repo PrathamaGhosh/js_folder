@@ -86,3 +86,4 @@ function arrFunc(getArray){
 console.log(arrFunc(newArr))
 
 console.log(arrFunc([1,344,56,78,90,65]))
+

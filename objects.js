@@ -46,7 +46,7 @@ objects.welcome1=function(){ //function acts as simple variable
 //adding function2 to objects
 objects.welcome2=function(){ //function acts as simple variable
     console.log(`my name is ${this.name}`) //accessing by this keyword
- }
+ }//this keyword used to refer the current content
 
  console.log(objects.welcome2())
 
